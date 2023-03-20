@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;   
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(225, 225, 225, 0.2);
+}
+nav ul li a:hover{
+    color: red;
+  
+} 
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span {
+    color: #FDDE5E;
+
+}
+.detel p {
+    color: #555;
+    line-height: 22px
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s,;
+}
+.images:hover .shape{
+    bottom: 40px;
+
+}
+.images:hover .men{
+    left: 45%;
+}
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    }
+
+    
+    @media (min-width: 390px) and (max-width: 844px){
+        .images{
+            width: 10px;
+            height: 500px;
+            right: 50%; 
+            margin-left: 200px;
+            position: absolute;
+           
+        }
+        .rodape{
+            width: 120%;
+            height: 100%;
+        }
+        .detel h1{
+            font-size: 40px;
+            color: #212121;
+            margin-bottom: 20px;
+        }
+        .detel p {
+            font-size: 14px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s,;
+        }
+        .logo{
+            width: 120px;
+            margin-top: -250px;
+        }
+        footer {
+            margin-left:  -11%;
+            
+            border-radius: 40%;
+            margin-right: -11% ;
+
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 3px;
+                font-size: 10px;
+            }
+    }
+    @media (min-width: 412px) and (max-width: 915px){
+        .images{
+            width: 10px;
+            height: 500px;
+            right: 50%; 
+            margin-left: 200px;
+            position: absolute;
+           
+        }
+        .rodape{
+            width: 120%;
+            height: 100%;
+        }
+        .detel h1{
+            font-size: 40px;
+            color: #212121;
+            margin-bottom: 20px;
+        }
+        .detel p {
+            font-size: 14px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s,;
+        }
+        .logo{
+            width: 120px;
+            margin-top: -250px;
+        }
+        footer {
+            margin-left:  -11%;
+            
+            border-radius: 40%;
+            margin-right: -11% ;
+
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 3px;
+                font-size: 10px;
+            }
+    }
+    @media (min-width: 820px) and (max-width: 1180px){
+        .images{
+            width: 10px;
+            height: 500px;
+            right: 50%; 
+            margin-left: 200px;
+            position: absolute;
+           
+        }
+        .rodape{
+            width: 120%;
+            height: 100%;
+        }
+        .detel h1{
+            font-size: 50px;
+            color: #212121;
+            margin-bottom: 20px;
+        }
+        .detel p {
+            font-size: 18px;
+        }
+        .images img{
+            height: 150%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s,;
+        }
+        .logo{
+            width: 200px;
+            margin-top: -250px;
+        }
+        footer {
+            margin-left:  -11%;
+            
+            border-radius: 40%;
+            margin-right: -11% ;
+
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 3px;
+                font-size: 15px;
+            }
+    }
+   

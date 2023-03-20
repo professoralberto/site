@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative
+    width 100%;
+    height: 100vh;
+    background-color: aliceblue;
+
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+} 
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span {
+    color: #FDDE5E;
+
+}
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+.detel a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(70, 45, 45);
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;   
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s,;
+}
+.images:hover .shape{
+    bottom: 40px;
+
+}
+.images:hover .men{
+    left: 45%;
+}
+.contato{
+    background-color: #FDDE5E;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+.info{
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 30px;
+    font-style: oblique;
+}
+.email{
+    background-color: #FDDE5E;
+    padding: 15px;
+    margin: 130px;
+    text-align: center;
+    width: 150px ;
+    margin-top: -300px;
+    border-radius: 10px;
+
+    
+}
+.emailp{
+    margin: 300px;
+    color: #555;
+    margin-top: -80px;
+    font-size: 20px;
+}
+.instagram{
+    background-color: #FDDE5E;
+    padding: 15px;
+    margin: 130px;
+    text-align: center;
+    width: 180px ;
+    margin-top: -250px;
+    border-radius: 10px;
+    
+}
+.instagramp{
+    margin: 300px;
+    color: #555;
+    margin-top: -80px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.imagen-Quadrinhos {
+  margin-left: 870px;
+  margin-top: -100px;
+  height: 400px ;
+}
+.rodape{
+    margin-top: 1px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    .images{
+        width: 10px;
+        height: 500px;
+        right: 50%; 
+        margin-left: 200px;
+        position: absolute;
+       
+    }
+    .rodape{
+        margin: -5px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .detel h1{
+        font-size: 40px;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    .detel p {
+        font-size: 14px;
+    }
+    .logo{
+        width: 120px;
+        margin-top: -250px;
+    }
+     
+    footer {
+        margin-left:  -11%;
+        
+        border-radius: 40%;
+        margin-right: -11% ;
+
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 3px;
+            font-size: 10px;
+        }
+        .contato{
+          
+            width:90px;
+            margin: 20px;
+            height: 30px;
+            box-shadow: 5px 5px 5px rgb(88, 87, 87);
+            font-size: 20px;
+            margin-left: 125px;
+            
+        }
+        .info{
+            margin: 50px;
+            color: #555;
+            font-size: 20px;
+        }
+        .email{
+            margin: 40px;
+            color: #555;
+            font-size: 20px;
+            margin-top: -550px;
+            width:90px;
+            height: 30px;
+        }
+        .emailp{
+            margin: 100px;
+            color: #555;
+            margin-top: -30px;
+            font-size: 17px;
+        }
+        .instagram{
+            margin: 40px;
+            color: #555;
+            margin-top: -20px;
+            font-size: 20px;
+            width: 110px;
+        
+        }
+        .instagramp{
+            margin: 100px;
+            color: #555;
+            margin-top: -30px;
+            font-size: 20px;
+            text-decoration: none;
+        }    
+        .imagen-Quadrinhos {
+             margin-top: 220px;
+             margin-left: -40px;
+             height: 300px;
+        }
+    
+}
+@media (min-width: 820px) and (max-width: 1180px){
+    .images{
+        width: 10px;
+        height: 500px;
+        right: 50%; 
+        margin-left: 200px;
+        position: absolute;
+       
+    }
+    .rodape{
+        width: 120%;
+        height: 100%;
+    }
+    .detel h1{
+        font-size: 50px;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    .detel p {
+        font-size: 18px;
+    }
+    .images img{
+        height: 150%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s,;
+    }
+    .logo{
+        width: 200px;
+        margin-top: -250px;
+    }
+    footer {
+        margin-left:  -11%;
+        
+        border-radius: 40%;
+        margin-right: -11% ;
+
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 3px;
+            font-size: 15px;
+        }
+        .contato{
+            background-color: #FDDE5E;
+            border-radius: 10px ;
+            padding: 20px;
+            width: 100px;
+            height: 60%;
+            margin: auto;
+            box-shadow: 5px 5px 5px rgb(88, 87, 87);
+            
+        }
+        .info{
+            margin: 50px;
+            color: #555;
+        }
+        .email{
+            margin: 100px;
+            color: #555;
+            font-size: 20px;
+            margin-top: -700px;
+
+        }
+        .instagram{
+            margin: 100px;
+            color: #555;
+            font-size: 20px;
+        }
+        .imagen-Quadrinhos {
+             margin-top: 200px;
+             margin-left: 313px;
+             height: 500px;
+        }
+        .rodape{
+            margin: -100px;
+            text-align: center;
+            
+        }
+    }
